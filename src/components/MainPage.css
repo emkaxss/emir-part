@@ -1,0 +1,166 @@
+.container {
+    margin: 0 auto;
+}
+
+.mainPageWrapper {
+    background-image: url('../assets/mainPAge.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    padding-top: 300px;
+}
+
+.mainPageTitle {
+    background-image: url("../assets/tempoooo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 700px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.mainPageDescription {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+
+.stocksAndAbout {
+    padding: 50px 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 68%, rgba(227, 11, 20, 1) 100%);
+    height: 1200px
+}
+
+.stocksTitle {
+    margin: 50px 0;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.stocksImg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stocksImg img{
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.stocksImg img:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+
+
+.about {
+    background: url('../assets/piano.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: overlay;
+    width: 100%;
+    height: 480px;
+}
+
+.aboutcontainer {
+    max-width: 1200px;
+    margin: -350px auto 0;
+}
+
+.aboutTitle {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.aboutDescription {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+    .stocksImg img {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .mainPageWrapper {
+        background-image: url('../assets/mainPAge.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        padding-top: 150px;
+    }
+    .stocksImg img {
+        width: 200px;
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .mainPageTitle {
+        background-image: url("../assets/tempoooo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 400px;
+        height: 150px;
+        margin: 0 auto;
+    }
+    .stocksImg img {
+        width: 150px;
+        height: 200px;
+    }
+    .aboutcontainer {
+        max-width: 400px;
+        margin: -350px auto 0;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .mainPageTitle {
+        background-image: url("../assets/tempoooo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 250px;
+        height: 90px;
+        margin: 0 auto;
+    }
+
+    .mainPageWrapper {
+        padding-top: 200px;
+    }
+    .stocksImg{
+        flex-wrap: wrap;
+    }
+}
